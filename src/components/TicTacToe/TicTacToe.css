@@ -1,0 +1,107 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top: 30px;
+    color: rgb(224, 100, 255);
+    font-size: 50px;
+    text-shadow: 0 0 10px rgb(177, 84, 201),
+                 0 0 20px rgb(177, 84, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    width: 200px;
+    height: 68px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: rgb(45, 5, 75);
+    font-size: 23px;
+    color: rgb(177, 84, 201);
+    margin-bottom: 18px;
+}
+.reset:hover{
+    color: rgb(177, 84, 201);
+    transform: scale(1.1)translateY(-5px);
+    box-shadow: 0 0 25px rgb(177, 84, 201);
+    background-color: rgb(45, 5, 75);
+}
+.boxes{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background: rgb(54, 6, 90);
+    border: 4px solid #16061f;
+    border-radius: 14px;
+    cursor: pointer; 
+}
+.board{
+    height: 350px;
+    width: 332px;
+    display: flex;
+    margin: auto;
+}
+.boxes img{
+    margin:15px 15px;
+}
+.title img{
+    padding: 10px 10px;
+    height: 50px;
+}
+.footer{
+    font-size: 13px;
+    color: rgb(196, 129, 213);
+}
+.footer:hover{
+    color: white;
+}
+
+@media screen and (max-width: 744px)
+{
+    .title
+    {
+        margin-top: 30px;
+        color: rgb(177, 84, 201);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxes{
+        display: flex;
+        height: 70px;
+        width: 70px;
+        background: rgb(54, 6, 90);
+        border: 4px solid #16061f;
+        border-radius: 14px;
+        cursor: pointer; 
+    }
+    .reset{
+        width: 150px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50px;
+        background: rgb(45, 5, 75);
+        font-size: 18px;
+        color: rgb(177, 84, 201);
+        margin-bottom: 18px;
+    }
+    .board{
+        height: 270px;
+        width: 225px;
+        display: flex;
+        margin: auto;
+    }
+    .title img{
+        padding: 15px 15px;
+        height: 30px;
+    }
+    .footer{
+        font-size: 8px;
+    }
+}
